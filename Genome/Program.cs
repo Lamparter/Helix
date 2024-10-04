@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Helix;
+
+// See https://aka.ms/new-console-template for more information
+
+Helix.Linnaeus lion = new Linnaeus();
