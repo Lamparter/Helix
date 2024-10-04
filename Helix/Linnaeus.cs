@@ -3,7 +3,7 @@
     public class Linnaeus
     {
         // Common name of the animal
-        public string? CommonName { get; set; }
+        public string CommonName { get; set; }
 
         // Scientific name of the animal
         public required string UniversalName { get; set; }
@@ -39,7 +39,7 @@
         public string? Description { get; set; }
 
         // Constructor for creating an instance of AnimalClassification
-        public Linnaeus(string? commonName, string universalName, string kingdom, string phylum, string classClassification, string order, string family, string genus, string species, string? habitat, string conservationStatus, string? description)
+        public Linnaeus(string commonName, string universalName, string kingdom, string phylum, string classClassification, string order, string family, string genus, string species, string? habitat, string conservationStatus, string? description)
         {
             this.CommonName = commonName;
             this.UniversalName = universalName;
