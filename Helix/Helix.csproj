@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -10,7 +10,7 @@
     <PackageIcon>DNA.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Lamparter/Helix</RepositoryUrl>
-    <Description>Library for using and managing experimental scientific data and using it across the .NET framework. 🧬👨‍🔬</Description>
+    <Description>Library for using and managing experimental scientific data across the .NET runtime. 🧬👨‍🔬</Description>
     <PackageTags>science, classification, riverside</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <IncludeSymbols>True</IncludeSymbols>
