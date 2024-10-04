@@ -13,10 +13,10 @@
     <Description>Library for using and managing experimental scientific data and using it across the .NET framework. 🧬👨‍🔬</Description>
     <PackageTags>science, classification, riverside</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <Version>0.7.0</Version>
+    <PackageId>Riverside.Helix</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
