@@ -2,43 +2,81 @@
 {
     public class Linnaeus
     {
-        // Common name of the animal
+        /// <summary>
+        /// Common name of the animal
+        /// </summary>
         public string CommonName { get; set; }
 
-        // Scientific name of the animal
+        /// <summary>
+        /// Scientific name of the animal
+        /// </summary>
         public required string UniversalName { get; set; }
 
-        // Kingdom classification
+        /// <summary>
+        /// Kingdom classification
+        /// </summary>
         public required string Kingdom { get; set; }
 
-        // Phylum classification
+        /// <summary>
+        /// Phylum classification
+        /// </summary>
         public required string Phylum { get; set; }
 
-        // Class classification
+        /// <summary>
+        /// Class classification
+        /// </summary>
         public required string Class { get; set; }
 
-        // Order classification
+        /// <summary>
+        /// Order classification
+        /// </summary>
         public required string Order { get; set; }
 
-        // Family classification
+        /// <summary>
+        /// Family classification
+        /// </summary>
         public required string Family { get; set; }
 
-        // Genus classification
+        /// <summary>
+        /// Genus classification
+        /// </summary>
         public required string Genus { get; set; }
 
-        // Species classification
+        /// <summary>
+        /// Species classification
+        /// </summary>
         public required string Species { get; set; }
 
-        // Habitat of the animal (nullable)
+        /// <summary>
+        /// Habitat of the animal (nullable)
+        /// </summary>
         public string? Habitat { get; set; }
 
-        // Conservation status (e.g., Least Concern, Endangered)
+        /// <summary>
+        /// Conservation status (e.g., Least Concern, Endangered)
+        /// </summary>
         public required string ConservationStatus { get; set; }
 
-        // Description of the animal (nullable)
+        /// <summary>
+        /// Description of the animal (nullable)
+        /// </summary>
         public string? Description { get; set; }
 
-        // Constructor for creating an instance of AnimalClassification
+        /// <summary>
+        /// Constructor for creating an instance of AnimalClassification
+        /// </summary>
+        /// <param name="commonName"></param>
+        /// <param name="universalName"></param>
+        /// <param name="kingdom"></param>
+        /// <param name="phylum"></param>
+        /// <param name="classClassification"></param>
+        /// <param name="order"></param>
+        /// <param name="family"></param>
+        /// <param name="genus"></param>
+        /// <param name="species"></param>
+        /// <param name="habitat"></param>
+        /// <param name="conservationStatus"></param>
+        /// <param name="description"></param>
         public Linnaeus(string commonName, string universalName, string kingdom, string phylum, string classClassification, string order, string family, string genus, string species, string? habitat, string conservationStatus, string? description)
         {
             this.CommonName = commonName;
