@@ -1,0 +1,3 @@
+{
+  "help": "This is the help manual for the CLI. Use the following commands:\n- help: Show this help manual\n- greet: Greet the user\n- exit: Exit the application"
+}
