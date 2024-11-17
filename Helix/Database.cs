@@ -1,8 +1,8 @@
-﻿namespace Helix.Helpers
+﻿namespace Helix
 {
     internal class Database
     {
-        private List<Linnaeus> _animals = new List<Linnaeus>();
+        private List<Linnaeus> _animals = [];
 
         public void AddAnimal(Linnaeus animal)
         {
