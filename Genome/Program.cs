@@ -4,7 +4,7 @@ using Helix.Helpers.NumericalMethods;
 using Helix.Helpers.Statistics;
 using Helix;
 
-namespace Genome
+namespace Riverside.Genome
 {
     class Program
     {

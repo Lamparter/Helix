@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>genome</ToolCommandName>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Genome</Title>
+    <Authors>Lamparter, Riverside</Authors>
+    <Company>Riverside Valley Corporation</Company>
+    <Description>Console app for using and managing experimental scientific data across the .NET runtime.</Description>
+    <Copyright>Copyright (c) 2024 Lamparter</Copyright>
+    <PackageProjectUrl>https://github.com/Lamparter/Helix</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Lamparter/Helix</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>tool, classification, science, riverside</PackageTags>
+    <PackageIcon>DNA.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Version>0.8.0</Version>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="..\Helix\Assets\DNA.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\Helix\Assets\DNA.png" />
+	  <None Include="..\README.md" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+    <PackageReference Include="System.CommandLine.NamingConventionBinder" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Helix\Helix.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<None Update="..\Helix\Assets\DNA.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
